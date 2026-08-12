@@ -16,7 +16,9 @@ on:
     - cron: "45 12 * * *"    # 09:45 BRT - atualizacao
     - cron: "40 13 * * *"    # 10:40 BRT - pos_ny
     - cron: "0 23 * * *"     # 20:00 BRT - fechamento
-    - cron: "*/5 9-23 * * *" # a cada 5 min, ~06:00-20:59 BRT (o script corta sozinho fora de 06:00-20:30)
+    # Breaking News (a cada 5 min) removido da grade automatica - GitHub Actions nao
+    # dispara agendamentos muito frequentes de forma confiavel. O tipo "breaking" continua
+    # disponivel pra rodar manualmente (aba Actions -> Run workflow -> tipo: breaking).
 
 permissions:
   contents: write  # necessario pra salvar o estado (relatorios/alertas ja enviados) de volta no repositorio
@@ -49,7 +51,6 @@ jobs:
               "45 12 * * *") echo "tipo=atualizacao" >> "$GITHUB_OUTPUT" ;;
               "40 13 * * *") echo "tipo=pos_ny" >> "$GITHUB_OUTPUT" ;;
               "0 23 * * *") echo "tipo=fechamento" >> "$GITHUB_OUTPUT" ;;
-              "*/5 9-23 * * *") echo "tipo=breaking" >> "$GITHUB_OUTPUT" ;;
               *) echo "tipo=abertura" >> "$GITHUB_OUTPUT" ;;
             esac
           fi
