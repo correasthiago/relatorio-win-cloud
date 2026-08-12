@@ -782,7 +782,34 @@ TITULOS_TIPO = {
 TIPOS_VALIDOS_CLI = list(TIPOS_RELATORIO) + ["breaking"]
 
 
+def _validar_variaveis_obrigatorias():
+    """Confere as variáveis essenciais ANTES de gastar tempo coletando notícias. Se faltar
+    algo, avisa exatamente qual chave está ausente e para na hora, em vez de falhar no meio
+    da execução com um erro mais difícil de entender."""
+    faltando = []
+    if not config.GEMINI_API_KEY or config.GEMINI_API_KEY == "COLE_SUA_CHAVE_AQUI":
+        faltando.append("GEMINI_API_KEY")
+    if config.ENVIAR_TELEGRAM:
+        if not config.TELEGRAM_BOT_TOKEN:
+            faltando.append("TELEGRAM_BOT_TOKEN")
+        if not config.TELEGRAM_CHAT_ID:
+            faltando.append("TELEGRAM_CHAT_ID")
+
+    if faltando:
+        print(
+            "ERRO DE CONFIGURACAO: faltando a(s) variavel(is): " + ", ".join(faltando) + "\n"
+            "Se estiver rodando local: confira o config.py.\n"
+            "Se estiver rodando no GitHub Actions: confira Settings > Secrets and variables > "
+            "Actions no repositorio, e cadastre um Secret com esse nome exato pra cada item "
+            "listado acima."
+        )
+        log.error("Variável(is) obrigatória(s) ausente(s): " + ", ".join(faltando))
+        sys.exit(1)
+
+
 def main():
+    _validar_variaveis_obrigatorias()
+
     tipo = sys.argv[1].strip().lower() if len(sys.argv) > 1 else "abertura"
 
     if tipo == "breaking":

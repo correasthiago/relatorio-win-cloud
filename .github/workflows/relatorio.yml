@@ -61,6 +61,10 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python relatorio_diario.py ${{ steps.tipo.outputs.tipo }}
 
+      - name: Garantir que o arquivo de controle do Breaking News existe
+        shell: bash
+        run: touch breaking_news_enviadas.json
+
       - name: Salvar o que ja foi enviado hoje (evita repetir relatorio/alerta)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
