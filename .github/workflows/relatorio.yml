@@ -1,0 +1,68 @@
+name: Relatorio WIN/WDO
+
+on:
+  # Permite rodar manualmente pelo site do GitHub (aba "Actions" -> "Run workflow")
+  workflow_dispatch:
+    inputs:
+      tipo:
+        description: "Tipo de relatorio (abertura, atualizacao, pos_ny, fechamento, breaking)"
+        required: false
+        default: "abertura"
+
+  # Horarios automaticos. GitHub Actions usa UTC; Sao Paulo e sempre UTC-3 (sem horario de verao).
+  schedule:
+    - cron: "0 10 * * *"     # 07:00 BRT - abertura
+    - cron: "30 11 * * *"    # 08:30 BRT - atualizacao
+    - cron: "45 12 * * *"    # 09:45 BRT - atualizacao
+    - cron: "40 13 * * *"    # 10:40 BRT - pos_ny
+    - cron: "0 23 * * *"     # 20:00 BRT - fechamento
+    - cron: "*/5 9-23 * * *" # a cada 5 min, ~06:00-20:59 BRT (o script corta sozinho fora de 06:00-20:30)
+
+permissions:
+  contents: write  # necessario pra salvar o estado (relatorios/alertas ja enviados) de volta no repositorio
+
+jobs:
+  rodar-relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o codigo do repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Definir qual tipo de relatorio rodar agora
+        id: tipo
+        shell: bash
+        run: |
+          if [ -n "${{ github.event.inputs.tipo }}" ]; then
+            echo "tipo=${{ github.event.inputs.tipo }}" >> "$GITHUB_OUTPUT"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 10 * * *") echo "tipo=abertura" >> "$GITHUB_OUTPUT" ;;
+              "30 11 * * *") echo "tipo=atualizacao" >> "$GITHUB_OUTPUT" ;;
+              "45 12 * * *") echo "tipo=atualizacao" >> "$GITHUB_OUTPUT" ;;
+              "40 13 * * *") echo "tipo=pos_ny" >> "$GITHUB_OUTPUT" ;;
+              "0 23 * * *") echo "tipo=fechamento" >> "$GITHUB_OUTPUT" ;;
+              "*/5 9-23 * * *") echo "tipo=breaking" >> "$GITHUB_OUTPUT" ;;
+              *) echo "tipo=abertura" >> "$GITHUB_OUTPUT" ;;
+            esac
+          fi
+
+      - name: "Rodar: ${{ steps.tipo.outputs.tipo }}"
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python relatorio_diario.py ${{ steps.tipo.outputs.tipo }}
+
+      - name: Salvar o que ja foi enviado hoje (evita repetir relatorio/alerta)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Atualiza estado do relatorio [skip ci]"
+          file_pattern: "relatorio_*.txt breaking_news_enviadas.json"
