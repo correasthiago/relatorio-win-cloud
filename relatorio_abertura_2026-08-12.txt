@@ -1,0 +1,28 @@
+<b>🎯 Resumo do Dia — 12/08/2026</b>
+O tom geral do mercado hoje é misto, com viés de alívio no exterior e cautela moderada no ambiente doméstico. Dados da inflação (CPI) dos EUA vieram dentro do esperado, acalmando os mercados globais, enquanto o setor de serviços brasileiro veio acima das expectativas. Contudo, o prêmio de risco eleitoral e o rebaixamento recente das ações brasileiras continuam impondo cautela aos ativos locais.
+
+<b>📊 Impacto Direto no WIN (Ibovespa Futuro)</b>
+• <b>Volume de Serviços (IBGE):</b> O volume de serviços ficou estável (0,0%) em junho ante maio, superando as estimativas de queda de 0,2%, demonstrando resiliência da atividade econômica (Viés: positivo).
+• <b>Balanços Corporativos:</b> Banco Pine (PINE4) reportou lucro de R$ 165,7 mi no 2T26 (+99,6% YoY) e Taesa aprovou R$ 206,7 mi em proventos. Em contrapartida, Helbor registrou queda de 74% no lucro. Banco do Brasil (BBAS3) divulga resultado hoje (Viés: misto/volatilidade).
+• <b>Alerta no Agronegócio:</b> Pedidos de recuperação judicial no agronegócio subiram 21,9% no 1T26, ligando sinal de alerta para bancos com forte exposição ao setor, como BBAS3 (Viés: negativo/incerto).
+• <b>Commodities e China:</b> Minério de ferro fechou em leve alta na China com promessa de novos estímulos monetários pelo Banco Central chinês, enquanto tensões no Estreito de Ormuz sustentam volatilidade no petróleo (Viés: neutro a positivo para Vale e Petrobras).
+• <b>Risco Eleitoral e Fluxo:</b> Ibovespa tenta recuperação após forte queda na véspera, mas saída de capital estrangeiro e o rebaixamento de recomendação do Brasil pelo J.P. Morgan continuam pesando sobre o índice (Viés: negativo).
+
+<b>💵 Câmbio e Exterior / WDO</b>
+• <b>CPI nos EUA:</b> O Índice de Preços ao Consumidor subiu 0,1% em julho, exatamente em linha com as projeções do mercado, trazendo alívio para as bolsas em Nova York e reduzindo a pressão sobre o dólar (Viés para WDO: baixa).
+• <b>Abertura do Câmbio:</b> O dólar à vista abriu em leve queda perto de R$ 5,15, devolvendo parte dos ganhos da véspera (+1%), impulsionado pelo apetite a risco internacional pós-CPI (Viés para WDO: baixa).
+• <b>Fedspeak e Geopolítica:</b> Dirigente do Fed (Susan Collins) sinalizou apoio a eventuais altas de juros em setembro caso a inflação volte a acelerar. Conflitos no Oriente Médio e fechamento parcial do Estreito de Ormuz mantêm o prêmio de risco global aceso (Viés: alta/cautela).
+
+<b>🏛️ Política e Fiscal Brasil</b>
+• <b>Pauta Fiscal / Isenção:</b> O Congresso instala hoje a comissão mista para analisar a Medida Provisória que acaba com o imposto de importação de 20% para compras internacionais até US$ 50 ("taxa das blusinhas") (Viés: neutro/fiscal em foco).
+• <b>Senado e Fertilizantes:</b> Senado aprovou projeto de linha de crédito para fomento da indústria de fertilizantes no país em meio às pressões da guerra no Oriente Médio (Viés: positivo para agronegócio).
+• <b>Risco Institucional / Eleições:</b> Aproximação do pleito eleitoral de outubro eleva as incertezas e a cobrança de prêmio nas curvas de juros locais (Viés: incerto).
+
+<b>📅 Fique de Olho</b>
+• 09h00 — Volume de Serviços de junho (IBGE) [Divulgado: 0,0%]
+• 09h30 — Inflação ao Consumidor / CPI de julho nos EUA [Divulgado: +0,1%]
+• Ao longo do dia — Instalação da comissão mista da MP da "Taxa das Blusinhas" no Congresso
+• Ao longo do dia — Instalação da comissão especial da PEC da Maioridade Penal na Câmara
+• Após o fechamento do mercado — Balanço do 2T26 do Banco do Brasil (BBAS3)
+
+<i>Isso é apoio informativo, não recomendação de investimento.</i>
