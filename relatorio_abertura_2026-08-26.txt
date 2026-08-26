@@ -1,0 +1,29 @@
+<b>🎯 Resumo do Dia — 26/08/2026</b>
+O sentimento global para a abertura é <b>misto</b>. Enquanto as bolsas asiáticas fecharam em alta com a queda do petróleo e esperanças diplomáticas entre EUA e Irã no Estreito de Ormuz, a Europa e os futuros de Nova York operam sem direção única. O mercado adota cautela prévia à divulgação de índices de inflação cruciais (IPCA-15 no Brasil e PCE nos EUA) e ao balanço da Nvidia.
+
+<b>📊 Impacto Direto no WIN (Ibovespa Futuro)</b>
+• <b>Petróleo em recuo:</b> A descompressão geopolítica no Estreito de Ormuz faz os preços do petróleo cederem no exterior, o que tende a pressionar Petrobras e empresas petrolíferas (viés de baixa para o setor, mas alívio de custos inflacionários).
+• <b>IPCA-15 e Curva de DI:</b> A divulgação da prévia da inflação doméstica é o principal gatilho do dia; números benignos podem aliviar as taxas de juros futuras e dar suporte aos ativos locais (viés dependente da divulgação).
+• <b>Oncoclínicas (ONCO3):</b> Colegiado da CVM decidiu a favor de OPA de cerca de R$ 6,5 bilhões a ser paga pela Centaurus aos minoritários (viés positivo para a ação).
+• <b>Bradesco (BBDC4):</b> Instituição esclareceu que não há acordo firmado para a compra da Amil, dissipando rumores de aporte bilionário (viés neutro/incerto).
+• <b>Oi (OIBR3):</b> Tribunal de Justiça do Rio de Janeiro confirmou a decretação de falência da operadora (viés negativo para o papel).
+
+<b>💵 Câmbio e Exterior / WDO</b>
+• <b>PCE e PIB nos EUA:</b> A segunda leitura do PIB americano e o índice de preços de gastos com consumo pessoal (PCE) balizam a trajetória de corte de juros do Fed, com potencial de ditar o fluxo para moedas emergentes e movimentar o Dólar Futuro.
+• <b>Simpósio de Jackson Hole:</b> A primeira participação de Kevin Warsh à frente do Federal Reserve no evento mantém o mercado em compasso de espera sobre a política monetária dos EUA e o rendimento das Treasuries.
+• <b>Guerra Tarifária:</b> Retaliação do Canadá com tarifas de até 50% sobre US$ 20 bilhões em produtos dos EUA traz volatilidade ao comércio internacional.
+
+<b>🏛️ Política e Fiscal Brasil</b>
+• <b>Arrecadação federal recorde:</b> Dados da Receita Federal apontaram R$ 289,3 bilhões arrecadados em julho (+8,97% real), trazendo alívio temporário para as metas fiscais de curto prazo (viés de suporte fiscal).
+• <b>Financiamento da dívida:</b> Tesouro Nacional anunciará mudanças em seu plano de financiamento, com atenção redobrada do mercado para o aumento da participação de títulos pós-fixados (LFTs).
+• <b>Previdência Social:</b> CNPS aprovou redução de R$ 5 bilhões na previsão de gastos do INSS para 2027, e dados apontam redução da fila de pedidos de benefícios.
+• <b>Cenário Eleitoral:</b> Sabatinas presidenciais e novas pesquisas estaduais/nacionais mostram indefinição e alimentam o ceticismo do mercado sobre o compromisso com reformas fiscais na próxima gestão.
+
+<b>📅 Fique de Olho</b>
+• 08h00 — INCC-M de agosto (FGV)
+• Manhã — IPCA-15 de agosto (IBGE)
+• Manhã — PCE de julho e 2ª leitura do PIB (EUA)
+• Ao longo do dia — Anúncio do Tesouro Nacional sobre revisão do plano de financiamento da dívida
+• 17h00 (pós-fechamento em NY) — Balanço do 2T26 da Nvidia (NVDA)
+
+<i>Conteúdo de caráter exclusivamente informativo. Não constitui recomendação de investimento ou compra/venda de ativos.</i>
