@@ -1,0 +1,30 @@
+<b>🎯 Resumo do Dia — 05/09/2026</b>
+O tom dos mercados globais é predominantemente <b>misto a Risk-Off</b>, pautado pela reação ao relatório de emprego (Payroll) nos EUA bem acima do esperado (+162 mil vagas), que reacendeu o temor de aperto monetário pelo Fed, e pela escalada das tensões geopolíticas entre EUA e Irã. No Brasil, o índice conta com o suporte das commodities pelo salto no petróleo e pelo fechamento em queda da curva de juros doméstica, mas segue contido pela forte crise institucional no STF e pela cautela antes do feriado prolongado.
+
+<b>📊 Impacto Direto no WIN (Ibovespa Futuro)</b>
+• <b>Petróleo e Petrobras:</b> Contratos de petróleo acumularam alta superior a 9% na semana devido a ataques entre forças norte-americanas e o Irã, além de novas explosões próximas ao polo de Kharg. Adicionalmente, o Ibama autorizou a Petrobras a perfurar três novos poços exploratórios na Bacia da Foz do Amazonas. Viés de alta para os papéis da estatal e suporte direto ao índice.
+• <b>Vale e Mineração:</b> O TRF-6 reformou decisão de primeira instância e condenou criminalmente a Samarco e três ex-gerentes pelo rompimento da barragem de Mariana, o que pode aumentar o foco sobre provisões e passivos jurídicos das controladoras. Viés de baixa a incerto para o setor.
+• <b>Siderurgia (CSN):</b> A agência Moody's Local informou que os avanços recentes da CSN ainda são insuficientes para alterar seu perfil de risco, mantendo o rating em revisão para possível rebaixamento. Viés de baixa para as ações da companhia.
+• <b>Setor Financeiro e Grandes Bancos:</b> A Moody's reiterou rating 'AAA.br' da Itaúsa com base na solidez do Itaú Unibanco. Em contrapartida, desdobramentos do caso Banco Master e a liquidação decretada pelo Banco Central das DTVMs Trustee e Banvox (envolvendo R$ 14,1 bilhões em FIDCs) mantêm volatilidade no segmento de crédito e securitização. Viés incerto.
+• <b>Curva de Juros (DI):</b> As taxas futuras recuaram em todos os vencimentos no fechamento anterior (DI Jan/27 fechando a 13,575%), descolando da alta dos Treasuries. O alívio recente beneficia ativos sensíveis a juros, embora analistas apontem que a trégua na inflação pode ser temporária. Viés de suporte moderado para o WIN.
+• <b>Corporativo (CPFL Energia):</b> A companhia confirmou a distribuição de R$ 700 milhões em dividendos (R$ 0,6075 por ação) previstos para 24 de setembro. Viés neutro a positivo.
+
+<b>💵 Câmbio e Exterior / WDO</b>
+• <b>Treasuries e Fedspeak:</b> O Payroll mais forte que o previsto e a declaração de Beth Hammack (presidente do Fed de Cleveland) de que "chegou a hora" de elevar juros nos EUA aumentaram a atratividade dos títulos públicos americanos e pressionaram as bolsas em Wall Street. Viés de alta para a moeda norte-americana e de aversão a risco em emergentes.
+• <b>Dólar e Derivativos:</b> O dólar à vista fechou em alta a R$ 5,13 (+0,50%), acompanhando o exterior. No entanto, dados da B3 mostram que investidores estrangeiros reduziram posições vendidas em real em US$ 11,4 bilhões em apenas dois dias, o que serviu de freio para movimentos de desvalorização cambial mais acentuados.
+• <b>Geopolítica no Oriente Médio:</b> Troca de ataques entre EUA e Irã, somada a sanções financeiras contra entidades turcas intermediárias e relatos de míssil atingindo petroleiro próximo à Ilha de Kharg, reforça a cautela global e a busca por liquidez em dólar. Viés de suporte para o WDO.
+• <b>China e Balança Comercial:</b> Bernstein apontou fraqueza na recuperação do consumo chinês. Paralelamente, dados do MDIC mostraram recuo de 27,1% no volume exportado de carne bovina brasileira para a China em agosto em virtude de cotas. Viés neutro a negativo para moedas ligadas a commodities industriais.
+
+<b>🏛️ Política e Fiscal Brasil</b>
+• <b>Crise no STF e Caso Master:</b> O confronto público entre os ministros André Mendonça e Alexandre de Moraes segue no centro das atenções. O presidente do STF, Edson Fachin, busca conter o desgaste institucional retirando acusações contra Mendonça do Inquérito das Fake News e sinalizando o encerramento do referido inquérito. O Conselho Superior do MPF abriu procedimento interno para apurar citações ao PGR Paulo Gonet no caso. O tema eleva o ruído político e a percepção de risco institucional.
+• <b>Orçamento Fiscal 2027:</b> No projeto orçamentário enviado ao Congresso, o governo incluiu a previsão de levantar R$ 22,4 bilhões com leilão extraordinário do pré-sal em 2027 para cumprir a meta de superávit primário. O Ministério da Defesa desponta como o 6º maior orçamento projetado, em meio a atritos diplomáticos e soberania de recursos.
+• <b>Corrida Presidencial 2026:</b> Pesquisas recentes (Quaest) apontam empate técnico no segundo turno entre Lula (42%) e Flávio Bolsonaro (41%). Gestoras como Verde e Ace Asset destacaram em relatórios o aumento de posição em renda variável local diante da precificação do cenário eleitoral mais competitivo.
+• <b>Congresso Nacional:</b> Foi encerrado o esforço concentrado com a aprovação da MP que mantém a isenção tributária para remessas internacionais de até US$ 50 (fim da taxa das blusinhas). Pautas prioritárias do Executivo, como o fim da escala de trabalho 6x1 e a PEC da Segurança Pública, ficaram travadas para após as eleições.
+
+<b>📅 Fique de Olho</b>
+• Domingo (06/09): Pronunciamento em cadeia nacional de rádio e TV do presidente Lula sobre o 7 de Setembro, autorizado pelo TSE.
+• Segunda-feira (07/09): Feriado do Dia do Trabalho nos Estados Unidos (Labor Day) — mercados acionários de NY fechados e sem negociação de futuros agrícolas.
+• Segunda-feira (07/09): Feriado nacional da Independência do Brasil — B3 fechada para negociações.
+• Quarta-feira (09/09): Divulgação da nova pesquisa eleitoral Meio/Ideia sobre intenções de voto para a Presidência da República.
+
+<i>Este relatório tem finalidade exclusivamente informativa e educacional, não constituindo recomendação de investimento ou orientação de compra e venda de ativos.</i>
